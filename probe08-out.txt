@@ -1,0 +1,365 @@
+TABS: {
+ "tabEls": [
+  {
+   "id": "tab3",
+   "tag": "DIV",
+   "cls": "col-md-12 col-xs-12",
+   "visible": true,
+   "display": "block"
+  },
+  {
+   "id": "table-dt2",
+   "tag": "TABLE",
+   "cls": "table table-striped table-bordered bg-white table-hover table-bordered",
+   "visible": true,
+   "display": "table"
+  },
+  {
+   "id": "table-dt1",
+   "tag": "TABLE",
+   "cls": "table table-striped table-bordered bg-white table-hover table-bordered",
+   "visible": false,
+   "display": "table"
+  }
+ ],
+ "sliderEls": [
+  {
+   "tag": "DIV",
+   "id": "",
+   "cls": "tab-slider--nav fad fa-caret-square-right taskbar-icon",
+   "visible": true,
+   "text": ""
+  },
+  {
+   "tag": "DIV",
+   "id": "",
+   "cls": "container-fluid tab-slider--container",
+   "visible": true,
+   "text": "Kiểu số liệuDoanh thu theo thángDoanh thu theo năm Đến ngày "
+  },
+  {
+   "tag": "TABLE",
+   "id": "table-dt2",
+   "cls": "table table-striped table-bordered bg-white table-hover table-bordered table-sm ",
+   "visible": true,
+   "text": "Đơn vịDoanh thu lũy kế từ đầu năm Doanh thu lũy kế từ đầu th"
+  }
+ ],
+ "tab3Children": [
+  "l_kieu_sl",
+  "kieu_sl",
+  "l_ngay_ht",
+  "ngay_ht",
+  "l_ma_dvi_sl",
+  "ma_dvi_sl",
+  "l_lh_nv",
+  "lh_nv",
+  "l_ttrang",
+  "ttrang",
+  "btn",
+  "bar-chart-dt",
+  "highcharts-dqcay1l-0",
+  "highcharts-drop-shadow-0",
+  "highcharts-dqcay1l-1-",
+  "highcharts-dqcay1l-7-",
+  "highcharts-dqcay1l-21-",
+  "highcharts-dqcay1l-22-",
+  "highcharts-dqcay1l-23-",
+  "button",
+  "table-dt2"
+ ]
+}
+DVI: {
+ "label": "Đơn vị quản lý",
+ "value": "ALL",
+ "options": [
+  "ALL|Tất cả",
+  "TCT|Văn phòng Tổng Công ty (TCT)",
+  "AGI|PJICO An Giang (AGI)",
+  "BGI|PJICO Bắc Giang (BGI)",
+  "BLI|PJICO Bạc Liêu (BLI)",
+  "BNI|PJICO Bắc Ninh (BNI)",
+  "BTA|PJICO Bến Thành (BTA)",
+  "BDI|PJICO Bình Định (BDI)",
+  "BDU|PJICO Bình Dương (BDU)",
+  "BPH|PJICO Bình Phước (BPH)",
+  "BTH|PJICO Bình Thuận (BTH)",
+  "CMA|PJICO Cà Mau (CMA)",
+  "CTH|PJICO Cần Thơ (CTH)",
+  "DNA|PJICO Đà Nẵng (DNA)",
+  "DLA|PJICO Đắk Lắk (DLA)",
+  "DNI|PJICO Đồng Nai (DNI)",
+  "DTH|PJICO Đồng Tháp (DTH)",
+  "GDI|PJICO Gia Định (GDI)",
+  "GLA|PJICO Gia Lai (GLA)",
+  "HGI|PJICO Hà Giang (HGI)",
+  "HNA|PJICO Hà Nam (HNA)",
+  "HNO|PJICO Hà Nội (HNO)",
+  "HTI|PJICO Hà Tĩnh (HTI)",
+  "HDU|PJICO Hải Dương (HDU)",
+  "HPH|PJICO Hải Phòng (HPH)",
+  "HBI|PJICO HOA BINH (HBI)",
+  "HUE|PJICO Huế (HUE)",
+  "HYE|PJICO Hưng Yên (HYE)",
+  "KHO|PJICO Khánh Hòa (KHO)",
+  "KGI|PJICO Kiên Giang (KGI)",
+  "LDO|PJICO Lâm Đồng (LDO)",
+  "LSO|PJICO Lạng Sơn (LSO)",
+  "LCA|PJICO Lào Cai (LCA)",
+  "LAN|PJICO Long An (LAN)",
+  "NDI|PJICO Nam Định (NDI)",
+  "NAN|PJICO Nghệ An (NAN)",
+  "PTH|PJICO Phú Thọ (PTH)",
+  "PYE|PJICO Phú Yên (PYE)",
+  "QBI|PJICO Quảng Bình (QBI)",
+  "QNA|PJICO Quảng Nam (QNA)",
+  "QNG|PJICO Quảng Ngãi (QNG)",
+  "QNI|PJICO Quảng Ninh (QNI)",
+  "QTR|PJICO Quảng Trị (QTR)",
+  "SGO|PJICO Sài Gòn (SGO)",
+  "STR|PJICO Sóc Trăng (STR)",
+  "SLA|PJICO Sơn La (SLA)",
+  "TNI|PJICO Tây Ninh (TNI)",
+  "TBI|PJICO Thái Bình (TBI)",
+  "TNG|PJICO Thái Nguyên (TNG)",
+  "TLO|PJICO Thăng Long (TLO)",
+  "THO|PJICO Thanh Hóa (THO)",
+  "TGI|PJICO Tiền Giang (TGI)",
+  "TVI|PJICO Trà Vinh (TVI)",
+  "TQU|PJICO Tuyên Quang (TQU)",
+  "VPH|PJICO Vĩnh Phúc (VPH)",
+  "VTA|PJICO Vũng Tàu (VTA)",
+  "YBA|PJICO Yên Bái (YBA)",
+  "DDO|PJICO Đông Đô (DDO)",
+  "DSG|PJICO Đông Sài Gòn (DSG)",
+  "HTH|PJICO Hà Thành (HTH)",
+  "BDA|PJICO Bạch Đằng (BDA)",
+  "TRA|PJICO Tràng An (TRA)",
+  "TBD|PJICO Tân Bình Dương (TBD)",
+  "TDU|PJICO Thủ Đức (TDU)",
+  "TDO|PJICO Thủ Đô (TDO)",
+  "DGT|null",
+  "HHO|null"
+ ]
+}
+STATE sau chon AGI: {
+ "cats": [
+  "TCT",
+  "AGI",
+  "BNI",
+  "BPH",
+  "HNO"
+ ],
+ "series": [
+  {
+   "name": "Doanh thu tháng trước",
+   "visible": true,
+   "n": 5,
+   "data": [
+    0.080822,
+    0.042387,
+    0,
+    0,
+    0.001231
+   ]
+  },
+  {
+   "name": "Doanh thu tháng hiện tại",
+   "visible": true,
+   "n": 5,
+   "data": [
+    0.178167,
+    0.024631,
+    0,
+    0,
+    0.0055
+   ]
+  },
+  {
+   "name": "Tỷ lệ tăng trưởng (%)",
+   "visible": true,
+   "n": 5,
+   "data": [
+    120.4,
+    -41.9,
+    100,
+    100,
+    346.8
+   ]
+  }
+ ]
+}
+reqs sau chon AGI: []
+reqs sau btn-update: []
+MODAL AGI: {
+ "exists": true,
+ "shown": true,
+ "headings": [
+  "Chi tiết doanh thu theo từng tháng"
+ ],
+ "headers": [],
+ "rowCount": 3,
+ "rows": [
+  [
+   "Văn phòng Tổng Công ty",
+   "211,546,523",
+   "178,166,820",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  [
+   "PJICO An Giang (AGI)",
+   "42,386,500",
+   "24,631,000",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  [
+   "PJICO Hà Nội (HNO)",
+   "1,231,000",
+   "5,500,000",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ]
+ ]
+}
+modal sau close(x): {"in":false,"display":"none","backdrop":0,"bodyModalOpen":false}
+MODAL REOPEN lan 2 shown: true rowCount: 3
+ALL value: ALL
+STATE sau chon ALL: {
+ "cats": [
+  "TCT",
+  "AGI",
+  "BNI",
+  "BPH",
+  "HNO"
+ ],
+ "series": [
+  {
+   "name": "Doanh thu tháng trước",
+   "visible": true,
+   "n": 5,
+   "data": [
+    0.080822,
+    0.042387,
+    0,
+    0,
+    0.001231
+   ]
+  },
+  {
+   "name": "Doanh thu tháng hiện tại",
+   "visible": true,
+   "n": 5,
+   "data": [
+    0.178167,
+    0.024631,
+    0,
+    0,
+    0.0055
+   ]
+  },
+  {
+   "name": "Tỷ lệ tăng trưởng (%)",
+   "visible": true,
+   "n": 5,
+   "data": [
+    120.4,
+    -41.9,
+    100,
+    100,
+    346.8
+   ]
+  }
+ ]
+}
+MODAL ALL: {
+ "exists": true,
+ "shown": true,
+ "headings": [
+  "Chi tiết doanh thu theo từng tháng"
+ ],
+ "headers": [],
+ "rowCount": 3,
+ "rows": [
+  [
+   "Văn phòng Tổng Công ty",
+   "211,546,523",
+   "178,166,820",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  [
+   "PJICO An Giang (AGI)",
+   "42,386,500",
+   "24,631,000",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ],
+  [
+   "PJICO Hà Nội (HNO)",
+   "1,231,000",
+   "5,500,000",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0",
+   "0"
+  ]
+ ]
+}
+legend item count: 3
+LEGEND before: {"cats":["TCT","AGI","BNI","BPH","HNO"],"series":[{"name":"Doanh thu tháng trước","visible":true,"n":5,"data":[0.080822,0.042387,0,0,0.001231]},{"name":"Doanh thu tháng hiện tại","visible":true,"n":5,"data":[0.178167,0.024631,0,0,0.0055]},{"name":"Tỷ lệ tăng trưởng (%)","visible":true,"n":5,"data":[120.4,-41.9,100,100,346.8]}]}
+LEGEND after click item0: {"cats":["TCT","AGI","BNI","BPH","HNO"],"series":[{"name":"Doanh thu tháng trước","visible":false,"n":5,"data":[0.080822,0.042387,0,0,0.001231]},{"name":"Doanh thu tháng hiện tại","visible":true,"n":5,"data":[0.178167,0.024631,0,0,0.0055]},{"name":"Tỷ lệ tăng trưởng (%)","visible":true,"n":5,"data":[120.4,-41.9,100,100,346.8]}]}
+LEGEND after click item0 again: {"cats":["TCT","AGI","BNI","BPH","HNO"],"series":[{"name":"Doanh thu tháng trước","visible":true,"n":5,"data":[0.080822,0.042387,0,0,0.001231]},{"name":"Doanh thu tháng hiện tại","visible":true,"n":5,"data":[0.178167,0.024631,0,0,0.0055]},{"name":"Tỷ lệ tăng trưởng (%)","visible":true,"n":5,"data":[120.4,-41.9,100,100,346.8]}]}
+TOOLTIP cot TCT: {"exists":true,"text":"","vis":""}
+condbtn count: 1
+BTNS on page: ["Theo điều kiện chọn |cls:btn-square btn-back btn-p-input","Xem chi tiết các tháng |cls:btn btn-filter-update"]
+CONDBTN before: {"url":"https://uat-capdon.pjico.com.vn/Home/Index","visModals":[],"dvi":"ALL"} after: {"url":"https://uat-capdon.pjico.com.vn/Home/Index","visModals":[],"dvi":"ALL"}
+CONDBTN click2: {"url":"https://uat-capdon.pjico.com.vn/Home/Index","visModals":[],"dvi":"ALL"}
+ERRORS: ["CONSOLE: Refused to execute script from 'https://uat-capdon.pjico.com.vn/ErrorHandler/Index' because its MIME type ('text/html') is not executable, and strict MIME type "]

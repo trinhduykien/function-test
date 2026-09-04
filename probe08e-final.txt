@@ -1,0 +1,7 @@
+DGT option: [{"v":"DGT","text":"null","html":"null"},{"v":"HHO","text":"null","html":"null"}]
+sau "abc": {"cats":["TCT","AGI","BNI","BPH","HNO"],"s":[{"n":"Doanh thu tháng trước","d":[0.080822,0.042387,0,0,0.001231]},{"n":"Doanh thu tháng hiện tại","d":[0.178167,0.024631,0,0,0.0055]},{"n":"Tỷ lệ tăng trư
+RECOVERY sau valid date: {"cats":["TCT","AGI","BNI","BPH","HNO"],"s":[{"n":"Doanh thu tháng trước","d":[0.080822,0.042387,0,0,0.001231]},{"n":"Doanh thu tháng hiện tại","d":[0.178167,0.024631,0,0,0.0055]},{"n":"Tỷ lệ tăng trưởng (%)","d":[120.4,-41.9,100,100,346.8]}]}
+pts: [{"cat":"TCT","x":138.6,"y":185.91768000000002},{"cat":"AGI","x":415.8,"y":245.87628},{"cat":"BNI","x":693,"y":312},{"cat":"BPH","x":970.2,"y":312},{"cat":"HNO","x":1247.4,"y":310.07964}]
+TIP AGI sau recovery: ["PJICO An Giang (AGI)● Doanh thu tháng trước: 0.042● Doanh thu tháng hiện tại: 0.024● Tỷ lệ tăng trưởng (%): -41.9"]
+MODAL final: {"open":true,"title":"Chi tiết doanh thu theo từng tháng","theadRowCount":2,"headRow1":["Đơn vị","Tháng 1","Tháng 2","Tháng 3","Tháng 4","Tháng 5","Tháng 6","Tháng 7","Tháng 8","Tháng 9","Tháng 10","Tháng 11","Tháng 12"],"tbodyRows":3}
+ERRORS: []

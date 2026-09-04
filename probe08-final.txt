@@ -1,0 +1,48 @@
+REQS at load: ["GET https://uat-capdon.pjico.com.vn/Home/Index","POST https://uat-capdon.pjico.com.vn/Dashboard/RegisterTSO","POST https://uat-capdon.pjico.com.vn/Dashboard/GeneratedRevenue"]
+GeneratedRevenue resp: {"code":"000","message":null,"systemMessage":null,"data":{"kq_dtth":"<thead style='position: sticky; z-index: 99; top: 0;'><tr style='border:1px solid black; color:#154360;background-color:#AED6F1;font-weight:bold;'><td rowspan='2' class='text-nowrap text-center' style='vertical-align: middle;' height='35'>Đơn vị</td><td colspan='3' class='text-nowrap text-center' height='35'>Doanh thu lũy kế từ đầu năm</td><td colspan='5' class='text-nowrap text-center' height='35' onclick='sl_thang_ct()'> Doanh thu lũy kế từ đầu tháng</td></tr><tr style='border:1px solid black; color:#154360;background-color:#AED6F1;font-weight:bold;'><td class='text-nowrap text-center' height='33'>Năm 2026</td><td class='text-nowrap text-center' height='33'>Năm 2025</td><td class='text-nowrap text-center' height='33'>Tăng trưởng<td class='text-nowrap text-center' height='33'>T09/2026</td><td class='text-nowrap text-center' height='33'>T08/2026</td><td class='text-nowrap text-center' height='33'>Tăng trưởng</td><td class='text-nowrap text-center' height='33'>T09/2025</td><td class='text-nowrap text-center' height='33'>Tăng trưởng</td></tr><tr style='color:White;background-color:#00ACC1;font-weight:bold;'><td class='text-nowrap text-center' style='vertical-align: middle;'>Tổng cộng</td><td class='text-nowrap text-right'>463,461,843</td><td class='text-nowrap text-right'>118,076,244</td><td class='text-nowrap text-right'>292.5</td><td class='text-nowrap text-right'>208,297,820</td><td class='text-nowrap text-
+TABS: {"tabSliderEls":["DIV|tab-slider--nav fad fa-caret-square-right taskbar-icon|vis:true","DIV|container-fluid tab-slider--container|vis:true"],"navIcon":"tab-slider--nav fad fa-caret-square-right taskbar-icon","tab3Vis":true,"kieuOpts":["BHTT_M|Doanh thu theo tháng|sel:true","BHTT_Y|Doanh thu theo năm|sel:false"],"btnEl":"DIV|col-lg-2 |Theo điều kiện chọn","btnInTab3":"BUTTON|btn-square btn-back btn-p-input|Theo điều kiện chọn|id:"}
+SLIDER before: {"containerVis":true,"containerH":825.5,"tab3Vis":true,"chartVis":true}
+SLIDER after click1: {"containerVis":true,"containerH":825.5,"tab3Vis":true,"chartVis":true}
+SLIDER after click2: {"containerVis":true,"containerH":825.5,"tab3Vis":true,"chartVis":true}
+BASE kieu=thang: {"cats":["TCT","AGI","BNI","BPH","HNO"],"series":[{"name":"Doanh thu tháng trước","visible":true,"data":[0.080822,0.042387,0,0,0.001231]},{"name":"Doanh thu tháng hiện tại","visible":true,"data":[0.178167,0.024631,0,0,0.0055]},{"name":"Tỷ lệ tăng trưởng (%)","visible":true,"data":[120.4,-41.9,100,100,346.8]}],"t2rows":["Văn phòng Tổng Công ty (T","PJICO An Giang (AGI)","PJICO Bắc Ninh (BNI)","PJICO Bình Phước (BPH)","PJICO Hà Nội (HNO)"]}
+AFTER kieu=năm: {"cats":["TCT","AGI","BNI","BPH","HNO"],"series":[{"name":"Doanh thu tháng trước","visible":true,"data":[0.080822,0.042387,0,0,0.001231]},{"name":"Doanh thu tháng hiện tại","visible":true,"data":[0.178167,0.024631,0,0,0.0055]},{"name":"Tỷ lệ tăng trưởng (%)","visible":true,"data":[120.4,-41.9,100,100,346.8]}],"t2rows":["Văn phòng Tổng Công ty (T","PJICO An Giang (AGI)","PJICO Bắc Ninh (BNI)","PJICO Bình Phước (BPH)","PJICO Hà Nội (HNO)"]}
+reqs sau kieu=năm: []
+MODAL khi kieu=năm: {"open":true,"headings":["Chi tiết doanh thu theo từng tháng"],"headers":[],"rows":[["Văn phòng Tổng Côn","211,546,523","178,166,820","0","0","0","0","0","0","0","0","0","0"],["PJICO An Giang (AG","42,386,500","24,631,000","0","0","0","0","0","0","0","0","0","0"],["PJICO Hà Nội (HNO)","1,231,000","5,500,000","0","0","0","0","0","0","0","0","0","0"]]}
+BACK kieu=tháng: {"cats":["TCT","AGI","BNI","BPH","HNO"],"series":[{"name":"Doanh thu tháng trước","visible":true,"data":[0.080822,0.042387,0,0,0.001231]},{"name":"Doanh thu tháng hiện tại","visible":true,"data":[0.178167,0.024631,0,0,0.0055]},{"name":"Tỷ lệ tăng trưởng (%)","visible":true,"data":[120.4,-41.9,100,100,346.8]}],"t2rows":["Văn phòng Tổng Công ty (T","PJICO An Giang (AGI)","PJICO Bắc Ninh (BNI)","PJICO Bình Phước (BPH)","PJICO Hà Nội (HNO)"]}
+reqs sau select AGI: []
+CHART sau select AGI: {"cats":["TCT","AGI","BNI","BPH","HNO"],"series":[{"name":"Doanh thu tháng trước","visible":true,"data":[0.080822,0.042387,0,0,0.001231]},{"name":"Doanh thu tháng hiện tại","visible":true,"data":[0.178167,0.024631,0,0,0.0055]},{"name":"Tỷ lệ tăng trưởng (%)","visible":true,"data":[120.4,-41.9,100,100,346.8]}],"t2rows":["Văn phòng Tổng Công ty (T","PJICO An Giang (AGI)","PJICO Bắc Ninh (BNI)","PJICO Bình Phước (BPH)","PJICO Hà Nội (HNO)"]}
+reqs sau btn-update (AGI): []
+MODAL AGI: {"open":true,"headings":["Chi tiết doanh thu theo từng tháng"],"headers":[],"rowCount":3,"rows":["Văn phòng Tổng Công ty (T","PJICO An Giang (AGI)","PJICO Hà Nội (HNO)"]}
+modal sau close x: {"in":false,"display":"none","backdrop":0,"bodyCls":"pjico-menu-v2-ready"}
+modal reopen (AGI): {"open":true,"rowCount":3}
+MODAL TCT rows: ["Văn phòng Tổng Công ty (T","PJICO An Giang (AGI)","PJICO Hà Nội (HNO)"]
+MODAL ALL rows: {"rowCount":3,"rows":["Văn phòng Tổng Công ty (T","PJICO An Giang (AGI)","PJICO Hà Nội (HNO)"]}
+LEGEND before: {"cats":["TCT","AGI","BNI","BPH","HNO"],"series":[{"name":"Doanh thu tháng trước","visible":true,"data":[0.080822,0.042387,0,0,0.001231]},{"name":"Doanh thu tháng hiện tại","visible":true,"data":[0.178167,0.024631,0,0,0.0055]},{"name":"Tỷ lệ tăng trưởng (%)","visible":true,"data":[120.4,-41.9,100,100,346.8]}],"t2rows":["Văn phòng Tổng Công ty (T","PJICO An Giang (AGI)","PJICO Bắc Ninh (BNI)","PJICO Bình Phước (BPH)","PJICO Hà Nội (HNO)"]}
+legend count: 3
+LEGEND after click item 0: ["Doanh thu tháng trước:false","Doanh thu tháng hiện tại:true","Tỷ lệ tăng trưởng (%):true"]
+LEGEND after click item 1: ["Doanh thu tháng trước:false","Doanh thu tháng hiện tại:false","Tỷ lệ tăng trưởng (%):true"]
+LEGEND after click item 2: ["Doanh thu tháng trước:false","Doanh thu tháng hiện tại:false","Tỷ lệ tăng trưởng (%):false"]
+LEGEND after restore: ["Doanh thu tháng trước:true","Doanh thu tháng hiện tại:true","Tỷ lệ tăng trưởng (%):true"]
+POINTS: [{"cat":"TCT","x":138.6,"y":185.91768000000002},{"cat":"AGI","x":415.8,"y":245.87628},{"cat":"BNI","x":693,"y":312},{"cat":"BPH","x":970.2,"y":312},{"cat":"HNO","x":1247.4,"y":310.07964}]
+CHARTRECT: {"left":45,"top":152,"w":1510,"h":400}
+TIP [TCT]: {"text":"","vis":null,"op":"1"}
+TIP [AGI]: {"text":"","vis":null,"op":"1"}
+reqs sau ngay 01/08/2026: []
+CHART sau ngay: {"cats":["TCT","AGI","BNI","BPH","HNO"],"series":[{"name":"Doanh thu tháng trước","visible":true,"data":[0.080822,0.042387,0,0,0.001231]},{"name":"Doanh thu tháng hiện tại","visible":true,"data":[0.178167,0.024631,0,0,0.0055]},{"name":"Tỷ lệ tăng trưởng (%)","visible":true,"data":[120.4,-41.9,100,100,346.8]}],"t2rows":["Văn phòng Tổng Công ty (T","PJICO An Giang (AGI)","PJICO Bắc Ninh (BNI)","PJICO Bình Phước (BPH)","PJICO Hà Nội (HNO)"]}
+CHART sau ngay 32/13/2026: {"cats":["TCT","AGI","BNI","BPH","HNO"],"series":[{"name":"Doanh thu tháng trước","visible":true,"data":[0.080822,0.042387,0,0,0.001231]},{"name":"Doanh thu tháng hiện tại","visible":true,"data":[0.178167,0.024631,0,0,0.0055]},{"name":"Tỷ lệ tăng trưởng (%)","visible":true,"data":[120.4,-41.9,100,100,346.8]}],"t2rows":["Văn phòng Tổng Công ty (T","PJICO An Giang (AGI)","PJICO Bắc Ninh (BNI)","PJIC
+errors den day_ht: ["CONSOLE: Refused to execute script from 'https://uat-capdon.pjico.com.vn/ErrorHandler/Index' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."]
+CHART sau ngay rỗng: {"cats":["TCT","AGI","BNI","BPH","HNO"],"series":[{"name":"Doanh thu tháng trước","visible":true,"data":[0.080822,0.042387,0,0,0.001231]},{"name":"Doanh thu tháng hiện tại","visible":true,"data":[0.178167,0.024631,0,0,0.0055]},{"name":"Tỷ lệ tăng trưởng (%)","visible":true,"data":[120.4,-41.9,100,100,346.8]}],"t2rows":["Văn phòng Tổng Công ty (T","PJICO An Giang (AGI)","PJICO Bắc Ninh (BNI)","PJIC
+CONDBTN info: {"cls":"btn-square btn-back btn-p-input","onclick":"if(form_chay==1) { alert('Đang xử lý. Bấm OK chờ kết quả!'); return false; } return DashboardHome_P_CHART('L');","parentVisible":true}
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+page.evaluate: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '.panel:visible' is not a valid selector.
+    at eval (eval at evaluate (:311:30), <anonymous>:4:25)
+    at UtilityScript.evaluate (<anonymous>:313:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at D:\bore\13\probe-func-08-dashboard-ui.js:231:66 {
+  log: []
+}
+
+Node.js v24.16.0

@@ -1,0 +1,3 @@
+ClaimGeneral after reload: {"btnSquare":2,"timHoSo":["Tìm hồ sơ"],"bodyLen":602}
+Unit after reload: {"rows":1,"bodyLen":432}
+junk 500+emoji status: 200 {"inputs":34,"bodyLen":762,"url":330}

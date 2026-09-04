@@ -1,0 +1,20 @@
+BASE: {"cats":["TCT","AGI","BNI","BPH","HNO"],"n":5,"v0":0.080822}
+CASE invalid-32/13 (fill="32/13/2026"): reqs=["POST"] chart={"cats":["TCT","AGI","BNI","BPH","HNO"],"n":5,"v0":0.080822}
+  resp: {"code":"000","message":null,"systemMessage":null,"data":{"kq_dtth":"<thead style='position: sticky; z-index: 99; top: 0;'><tr style='border:1px solid black; color:#154360;background-color:#AED6F1;font-weight:bold;'><td rowspan='2' class='text-nowrap text-center' style='vertical-align: middle;' heig
+  restore: {"cats":["TCT","AGI","BNI","BPH","HNO"],"n":5,"v0":0.080822}
+CASE text-abc (fill="abc"): reqs=["POST"] chart={"cats":["TCT","AGI","BNI","BPH","HNO"],"n":5,"v0":0.080822}
+  resp: {"code":"000","message":null,"systemMessage":null,"data":{"kq_dtth":"<thead style='position: sticky; z-index: 99; top: 0;'><tr style='border:1px solid black; color:#154360;background-color:#AED6F1;font-weight:bold;'><td rowspan='2' class='text-nowrap text-center' style='vertical-align: middle;' heig
+  restore: {"cats":["TCT","AGI","BNI","BPH","HNO"],"n":5,"v0":0.080822}
+CASE empty (fill=""): reqs=["POST"] chart={"n":0,"v0":null}
+  resp: {"code":"000","message":null,"systemMessage":null,"data":{"kq_dtth":"<thead style='position: sticky; z-index: 99; top: 0;'><tr style='border:1px solid black; color:#154360;background-color:#AED6F1;font-weight:bold;'><td rowspan='2' class='text-nowrap text-center' style='vertical-align: middle;' heig
+  restore: {"n":0,"v0":null}
+CASE special (fill=""><&!@#$%"): reqs=["POST"] chart={"n":0,"v0":null}
+  resp: {"code":"000","message":null,"systemMessage":null,"data":{"kq_dtth":"<thead style='position: sticky; z-index: 99; top: 0;'><tr style='border:1px solid black; color:#154360;background-color:#AED6F1;font-weight:bold;'><td rowspan='2' class='text-nowrap text-center' style='vertical-align: middle;' heig
+  restore: {"n":0,"v0":null}
+CASE valid-01/08 (fill="01/08/2026"): reqs=["POST"] chart={"n":0,"v0":null}
+  resp: {"code":"000","message":null,"systemMessage":null,"data":{"kq_dtth":"<thead style='position: sticky; z-index: 99; top: 0;'><tr style='border:1px solid black; color:#154360;background-color:#AED6F1;font-weight:bold;'><td rowspan='2' class='text-nowrap text-center' style='vertical-align: middle;' heig
+  restore: {"n":0,"v0":null}
+CASE valid-01/09/2025 (fill="01/09/2025"): reqs=["POST"] chart={"n":0,"v0":null}
+  resp: {"code":"000","message":null,"systemMessage":null,"data":{"kq_dtth":"<thead style='position: sticky; z-index: 99; top: 0;'><tr style='border:1px solid black; color:#154360;background-color:#AED6F1;font-weight:bold;'><td rowspan='2' class='text-nowrap text-center' style='vertical-align: middle;' heig
+  restore: {"n":0,"v0":null}
+ERRORS: []

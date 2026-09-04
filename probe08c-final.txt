@@ -1,0 +1,151 @@
+A. AGI thang CHART: {"cats":["LXU","TCH"],"s":[{"n":"Doanh thu tháng trước","v":true,"d":[0,0]},{"n":"Doanh thu tháng hiện tại","v":true,"d":[0,0]},{"n":"Tỷ lệ tăng trưởng (%)","v":true,"d":[100,100]}]}
+A. AGI thang MODAL: {"open":true,"title":"Chi tiết doanh thu theo từng tháng","rowCount":0,"units":[]}
+B. TCT thang CHART: {"cats":["BCA","CNG","HHA","PTU","TSA","TTU","XCG","SKH"],"s":[{"n":"Doanh thu tháng trước","v":true,"d":[0,0,0,0.001365,0,0,0.002799,0]},{"n":"Doanh thu tháng hiện tại","v":true,"d":[0,0,0,0.006549,0,0,0.005662,0]},{"n":"Tỷ lệ tăng trưởng (%)","v":true,"d":[100,100,100,379.8,100,100,102.3,100]}]}
+B. TCT thang MODAL: {"open":true,"title":"Chi tiết doanh thu theo từng tháng","rowCount":6,"units":["Ban BH Bancassurance","Phòng bảo hiểm con người","Phòng bảo hiểm hàng hóa","Ban Phát triển ứng dụng đ","Phòng bảo hiểm tài sản kỹ","Phòng bảo hiểm xe cơ giới"]}
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('button.btn-back.btn-p-input')[22m
+[2m    - locator resolved to <button class="btn-square btn-back btn-p-input" onclick="if(form_chay==1) { alert('Đang xử lý. Bấm OK chờ kết quả!'); return false; } return DashboardHome_P_CHART('L');">…</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <a href="/Tienich/ChangePassword">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <a href="/Tienich/ChangePassword">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <a href="#" aria-haspopup="true" id="pjUserMenuToggle" aria-expanded="false" class="dropdown-toggle">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events[22m
+[2m  13 × retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <a href="/Tienich/ChangePassword">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <a href="/Tienich/ChangePassword">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <a href="#" aria-haspopup="true" id="pjUserMenuToggle" aria-expanded="false" class="dropdown-toggle">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <a href="#" aria-haspopup="true" id="pjUserMenuToggle" aria-expanded="false" class="dropdown-toggle">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <a href="/Tienich/ChangePassword">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <a href="#" aria-haspopup="true" id="pjUserMenuToggle" aria-expanded="false" class="dropdown-toggle">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+    at apply (D:\bore\13\probe3-func-08-dashboard-ui.js:33:81)
+    at D:\bore\13\probe3-func-08-dashboard-ui.js:50:9 {
+  log: [
+    "  - waiting for locator('button.btn-back.btn-p-input')",
+    `    - locator resolved to <button class="btn-square btn-back btn-p-input" onclick="if(form_chay==1) { alert('Đang xử lý. Bấm OK chờ kết quả!'); return false; } return DashboardHome_P_CHART('L');">…</button>`,
+    '  - attempting click action',
+    '    2 × waiting for element to be visible, enabled and stable',
+    '      - element is visible, enabled and stable',
+    '      - scrolling into view if needed',
+    '      - done scrolling',
+    '      - <a href="/Tienich/ChangePassword">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events',
+    '    - retrying click action',
+    '    - waiting 20ms',
+    '    - waiting for element to be visible, enabled and stable',
+    '    - element is visible, enabled and stable',
+    '    - scrolling into view if needed',
+    '    - done scrolling',
+    '    - <a href="/Tienich/ChangePassword">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events',
+    '  2 × retrying click action',
+    '      - waiting 100ms',
+    '      - waiting for element to be visible, enabled and stable',
+    '      - element is visible, enabled and stable',
+    '      - scrolling into view if needed',
+    '      - done scrolling',
+    '      - <a href="#" aria-haspopup="true" id="pjUserMenuToggle" aria-expanded="false" class="dropdown-toggle">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events',
+    '  13 × retrying click action',
+    '       - waiting 500ms',
+    '       - waiting for element to be visible, enabled and stable',
+    '       - element is visible, enabled and stable',
+    '       - scrolling into view if needed',
+    '       - done scrolling',
+    '       - <a href="/Tienich/ChangePassword">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events',
+    '     - retrying click action',
+    '       - waiting 500ms',
+    '       - waiting for element to be visible, enabled and stable',
+    '       - element is visible, enabled and stable',
+    '       - scrolling into view if needed',
+    '       - done scrolling',
+    '       - <a href="/Tienich/ChangePassword">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events',
+    '     - retrying click action',
+    '       - waiting 500ms',
+    '       - waiting for element to be visible, enabled and stable',
+    '       - element is visible, enabled and stable',
+    '       - scrolling into view if needed',
+    '       - done scrolling',
+    '       - <a href="#" aria-haspopup="true" id="pjUserMenuToggle" aria-expanded="false" class="dropdown-toggle">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events',
+    '     - retrying click action',
+    '       - waiting 500ms',
+    '       - waiting for element to be visible, enabled and stable',
+    '       - element is visible, enabled and stable',
+    '       - scrolling into view if needed',
+    '       - done scrolling',
+    '       - <a href="#" aria-haspopup="true" id="pjUserMenuToggle" aria-expanded="false" class="dropdown-toggle">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events',
+    '  2 × retrying click action',
+    '      - waiting 500ms',
+    '      - waiting for element to be visible, enabled and stable',
+    '      - element is visible, enabled and stable',
+    '      - scrolling into view if needed',
+    '      - done scrolling',
+    '      - <a href="/Tienich/ChangePassword">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events',
+    '  - retrying click action',
+    '    - waiting 500ms',
+    '    - waiting for element to be visible, enabled and stable',
+    '    - element is visible, enabled and stable',
+    '    - scrolling into view if needed',
+    '    - done scrolling',
+    '    - <a href="#" aria-haspopup="true" id="pjUserMenuToggle" aria-expanded="false" class="dropdown-toggle">…</a> from <nav id="mainMenu" role="navigation" class="navbar header fixed-top">…</nav> subtree intercepts pointer events',
+    '  - retrying click action',
+    '    - waiting 500ms'
+  ],
+  name: 'TimeoutError'
+}
+
+Node.js v24.16.0

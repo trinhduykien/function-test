@@ -1,0 +1,14 @@
+BASE: {"cats":["TCT","AGI","BNI","BPH","HNO"],"n":5}
+== fill "" apply ==
+  RESP keys=["kq_dtth","kq_dttg","dt_bh_2","dt_tt_2","dt_tl_2","kq_truc_x_2","dt_ten_2","b_dt_2","b_dt_nv","b_dt_nv_tong"] code=000 msg=null other={"kq_dttg":"<thead style='position: sticky; z-index: 99; top: 0;'><tr style='border:1px soli","dt_bh_2":"null","dt_tt_2":"null","dt_tl_2":"null","kq_truc_x_2":"null","dt_ten_2":"null","b_dt_2":"[]","b_dt_nv":"[]","b_dt_nv_tong":"[]"}
+after empty apply: {"n":0}
+== fill 04/09/2026 apply ==
+  RESP keys=["kq_dtth","kq_dttg","dt_bh_2","dt_tt_2","dt_tl_2","kq_truc_x_2","dt_ten_2","b_dt_2","b_dt_nv","b_dt_nv_tong"] code=000 msg=null other={"kq_dttg":"<thead style='position: sticky; z-index: 99; top: 0;'><tr style='border:1px soli","dt_bh_2":"null","dt_tt_2":"null","dt_tl_2":"null","kq_truc_x_2":"null","dt_ten_2":"null","b_dt_2":"[]","b_dt_nv":"[]","b_dt_nv_tong":"[]"}
+after restore apply: {"n":0}
+== fill 01/08/2026 apply ==
+  RESP keys=["kq_dtth","kq_dttg","dt_bh_2","dt_tt_2","dt_tl_2","kq_truc_x_2","dt_ten_2","b_dt_2","b_dt_nv","b_dt_nv_tong"] code=000 msg=null other={"kq_dttg":"<thead style='position: sticky; z-index: 99; top: 0;'><tr style='border:1px soli","dt_bh_2":"null","dt_tt_2":"null","dt_tl_2":"null","kq_truc_x_2":"null","dt_ten_2":"null","b_dt_2":"[]","b_dt_nv":"[]","b_dt_nv_tong":"[]"}
+after 01/08 apply: {"n":0}
+  RESP keys=["kq_dtth","kq_dttg","dt_bh_2","dt_tt_2","dt_tl_2","kq_truc_x_2","dt_ten_2","b_dt_2","b_dt_nv","b_dt_nv_tong"] code=000 msg=null other={"kq_dttg":"<thead style='position: sticky; z-index: 99; top: 0;'><tr style='border:1px soli","dt_bh_2":"[0.178167,0.024631,0,0,0.0055]","dt_tt_2":"[0.080822,0.042387,0,0,0.001231]","dt_tl_2":"[120.4,-41.9,100,100,346.8]","kq_truc_x_2":"[\"TCT\",\"AGI\",\"BNI\",\"BPH\",\"HNO\"]","dt_ten_2":"[\"Văn phòng Tổng Công ty (TCT)\",\"PJICO An Giang (AGI)\",\"PJICO Bắc Ninh (BNI)\",\"PJICO Bình Phước (BPH)
+after RELOAD: {"cats":["TCT","AGI","BNI","BPH","HNO"],"n":5}
+total GeneratedRevenue POSTs observed (excl. load): 4
+ERRORS: []

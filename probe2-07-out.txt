@@ -1,0 +1,126 @@
+=== A. Menu navigation Home -> ContractCar/Search ===
+menu appeared after 1054 ms (from domcontentloaded+wfs)
+CẤP ĐƠN count: 1
+a[href=/ContractCar/Search] visible after hover: true
+link info: {
+ "rect": {
+  "x": 220,
+  "y": 151,
+  "w": 256,
+  "h": 44
+ },
+ "text": "Cấp đơn xe ô tô",
+ "ancestors": [
+  "LI.",
+  "UL.item-content--list",
+  "DIV.",
+  "LI.item dropdown dropdown-item pj-menu-group",
+  "UL.col-md-8 item-flex menu-content"
+ ]
+}
+after menu-click URL: https://uat-capdon.pjico.com.vn/ContractCar/Search
+
+=== B. Render signals /ContractCar/Search ===
+signals: {
+ "inputs": 34,
+ "selects": 8,
+ "buttons": [
+  "TCT | TCT-Văn phòng TCT",
+  "Tất cả",
+  "Tất cả",
+  "Tất cả",
+  "Tất cả",
+  "Tạo đơn mới",
+  "Tìm kiếm",
+  "Thông Tin Tìm Nâng Cao",
+  "×",
+  "Bản xem trước",
+  "Bản chính",
+  "×"
+ ],
+ "btnBlue": true,
+ "forms": 0,
+ "tables": 8,
+ "bodyTextLen": 2253,
+ "bodyHead": "CẤP ĐƠN | THANH TOÁN | BỒI THƯỜNG | TÁI BẢO HIỂM | TIỆN ÍCH | HỆ THỐNG MÃ | BÁO CÁO | TRINH DUY KIEN (TCT) | Tìm hợp đồng / Giấy chứng nhận xe cơ giới | Từ ngày | Đến ngày | Đơn vị | ALL | Tất cả | TCT | TCT-Văn phòng TCT | AGI | AGI-An Giang | BDA | BDA-Bạch Đằng | BDI | BDI-Bình Định | BDU | BDU-Bình Dương | BGI | BGI-Bắc Giang | BLI ",
+ "menuCount": 7,
+ "visibleInput": true
+}
+
+=== E. goBack -> Home ===
+URL: https://uat-capdon.pjico.com.vn/Home/Index
+home after back: {
+ "chartBar": true,
+ "tab3": true,
+ "tabs": [
+  "tab3",
+  "table-dt2",
+  "table-dt1"
+ ],
+ "bodyTextLen": 1922,
+ "title": "Dashboard - PJICO: Nền tảng cấp đơn bảo hiểm"
+}
+goForward again: {
+ "url": "https://uat-capdon.pjico.com.vn/ContractCar/Search",
+ "inputs": 34,
+ "btnBlue": true,
+ "bodyTextLen": 762
+}
+
+=== D. reload junk query ===
+before: {"url":"https://uat-capdon.pjico.com.vn/ContractCar/Search?xyz=1&test=%3Cb%3Eabc%3C/b%3E","inputs":29} after: {"url":"https://uat-capdon.pjico.com.vn/ContractCar/Search?xyz=1&test=%3Cb%3Eabc%3C/b%3E","inputs":34,"bodyTextLen":762}
+
+=== C. Error pages ===
+/KhongTonTai999/Action => status: 200
+  final URL: https://uat-capdon.pjico.com.vn/ErrorHandler/Index
+  info: {
+ "title": "Index",
+ "bodyText": "Trang thông báo lỗi",
+ "links": [],
+ "buttons": 0,
+ "bodyChildNodes": 3
+}
+/Home/KhongTonTai => status: 200
+  final URL: https://uat-capdon.pjico.com.vn/ErrorHandler/Index
+  info: {
+ "title": "Index",
+ "bodyText": "Trang thông báo lỗi",
+ "links": [],
+ "buttons": 0,
+ "bodyChildNodes": 3
+}
+/ContractCar/KhongTonTai => status: 200
+  final URL: https://uat-capdon.pjico.com.vn/ErrorHandler/Index
+  info: {
+ "title": "Index",
+ "bodyText": "Trang thông báo lỗi",
+ "links": [],
+ "buttons": 0,
+ "bodyChildNodes": 3
+}
+/xyzzy => status: 200
+  final URL: https://uat-capdon.pjico.com.vn/ErrorHandler/Index
+  info: {
+ "title": "Index",
+ "bodyText": "Trang thông báo lỗi",
+ "links": [],
+ "buttons": 0,
+ "bodyChildNodes": 3
+}
+
+error page HTML length: 188
+error page HTML slice 2000: <!DOCTYPE html><html><head>
+    <meta name="viewport" content="width=device-width">
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        Trang thông báo lỗi
+    </div>
+
+</body></html>
+
+=== F. reload menu timing ===
+/ContractCar/Search menu appeared 240 ms after reload-domcontentloaded
+/ClaimGeneral/Search menu appeared 186 ms after reload-domcontentloaded
+/CategorySystem/Unit menu appeared 252 ms after reload-domcontentloaded

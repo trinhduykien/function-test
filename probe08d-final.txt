@@ -1,0 +1,41 @@
+C. ALL nam CHART: {"cats":["TCT","AGI","HNO","QBI","TLO","VTA","TDO","DGT"],"s":[{"n":"Doanh thu năm trước","v":true,"d":[2.3,0.1,0.1,0,0,0,0,0.1]},{"n":"Doanh thu năm nay","v":true,"d":[77082.087232,0,0.639239,0,0.000004,0.00012,0,0.142065]},{"n":"Tỷ lệ tăng trưởng (%)","v":true,"d":[3293371.8,-100,364.1,-100,100,100,-100,101.5]}]}
+C. ALL nam MODAL: {"open":true,"title":"Chi tiết doanh thu theo từng tháng","rowCount":5,"units":["Văn phòng Tổng Công ty (T","PJICO Hà Nội (HNO)","PJICO Thăng Long (TLO)","PJICO Vũng Tàu (VTA)",""]}
+  (apply: click intercepted -> JS click)
+restore thang CHART: {"cats":["TCT","AGI","BNI","BPH","HNO"],"s":[{"n":"Doanh thu tháng trước","v":true,"d":[0.080822,0.042387,0,0,0.001231]},{"n":"Doanh thu tháng hiện tại","v":true,"d":[0.178167,0.024631,0,0,0.0055]},{"n":"Tỷ lệ tăng trưởng (%)","v":true,"d":[120.4,-41.9,100,100,346.8]}]}
+  (apply: click intercepted -> JS click)
+D. ngay="32/13/2026" CHART: {"s":[{"n":"Doanh thu tháng trước","v":true,"d":[]},{"n":"Doanh thu tháng hiện tại","v":true,"d":[]},{"n":"Tỷ lệ tăng trưởng (%)","v":true,"d":[]}]}
+D. ngay="32/13/2026" MODAL: {"open":true,"title":"Chi tiết doanh thu theo từng tháng","rowCount":5,"units":["Văn phòng Tổng Công ty (T","PJICO Hà Nội (HNO)","PJICO Thăng Long (TLO)","PJICO Vũng Tàu (VTA)",""]}
+D. errors: []
+  (apply: click intercepted -> JS click)
+D. ngay=""><&!@#" CHART: {"s":[{"n":"Doanh thu tháng trước","v":true,"d":[]},{"n":"Doanh thu tháng hiện tại","v":true,"d":[]},{"n":"Tỷ lệ tăng trưởng (%)","v":true,"d":[]}]}
+D. ngay=""><&!@#" MODAL: {"open":true,"title":"Chi tiết doanh thu theo từng tháng","rowCount":0,"units":[]}
+D. errors: []
+D. ngay="" CHART: {"s":[{"n":"Doanh thu tháng trước","v":true,"d":[]},{"n":"Doanh thu tháng hiện tại","v":true,"d":[]},{"n":"Tỷ lệ tăng trưởng (%)","v":true,"d":[]}]}
+D. ngay="" MODAL: {"open":true,"title":"Chi tiết doanh thu theo từng tháng","rowCount":0,"units":[]}
+D. errors: []
+D. ngay="abc" CHART: {"s":[{"n":"Doanh thu tháng trước","v":true,"d":[]},{"n":"Doanh thu tháng hiện tại","v":true,"d":[]},{"n":"Tỷ lệ tăng trưởng (%)","v":true,"d":[]}]}
+D. ngay="abc" MODAL: {"open":true,"title":"Chi tiết doanh thu theo từng tháng","rowCount":0,"units":[]}
+D. errors: []
+D. ngay="01/01/2099" CHART: {"s":[{"n":"Doanh thu tháng trước","v":true,"d":[]},{"n":"Doanh thu tháng hiện tại","v":true,"d":[]},{"n":"Tỷ lệ tăng trưởng (%)","v":true,"d":[]}]}
+D. ngay="01/01/2099" MODAL: {"open":true,"title":"Chi tiết doanh thu theo từng tháng","rowCount":0,"units":[]}
+D. errors: []
+E. options null-label: []
+E. DGT CHART: {"s":[{"n":"Doanh thu tháng trước","v":true,"d":[]},{"n":"Doanh thu tháng hiện tại","v":true,"d":[]},{"n":"Tỷ lệ tăng trưởng (%)","v":true,"d":[]}]}
+E. DGT MODAL: {"open":true,"title":"Chi tiết doanh thu theo từng tháng","rowCount":0,"units":[]}
+F. SLIDER: {
+ "navHTML": "<div class=\"tab-slider--nav fad fa-caret-square-right taskbar-icon\"></div>",
+ "navOnclick": null,
+ "contCls": "container-fluid tab-slider--container",
+ "allTabs": [
+  "tab3|DIV|vis:true",
+  "table-dt2|TABLE|vis:true",
+  "table-dt1|TABLE|vis:false"
+ ],
+ "navVisibleText": ""
+}
+F. jqEvents nav: []
+F. jqEvents document click count: 17
+F. after force click: {"contCls":"container-fluid tab-slider--container","vis":true,"h":607.1875,"navCls":"tab-slider--nav fad fa-caret-square-right taskbar-icon"}
+G. legend items: 3
+G. sau click legend 1: ["Doanh thu tháng trước:false","Doanh thu tháng hiện tại:true","Tỷ lệ tăng trưởng (%):true"]
+ERRORS CUOI: []

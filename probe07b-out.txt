@@ -1,0 +1,106 @@
+ContractCar links: [
+ {
+  "href": "/ContractCar/Search",
+  "text": "",
+  "visible": true
+ },
+ {
+  "href": "/ContractCar/SearchFeeApprove",
+  "text": "",
+  "visible": true
+ },
+ {
+  "href": "/ContractCargo/SearchTLO",
+  "text": "",
+  "visible": true
+ },
+ {
+  "href": "/ContractCargo/Search",
+  "text": "",
+  "visible": true
+ },
+ {
+  "href": "/ContractCargo/SearchBCTLO",
+  "text": "",
+  "visible": true
+ }
+]
+topMenu: [
+ {
+  "tag": "A",
+  "cls": "dropdown-toggle name-menu--item",
+  "text": "CẤP ĐƠN"
+ },
+ {
+  "tag": "A",
+  "cls": "dropdown-toggle name-menu--item",
+  "text": "THANH TOÁN"
+ },
+ {
+  "tag": "A",
+  "cls": "dropdown-toggle name-menu--item",
+  "text": "BỒI THƯỜNG"
+ },
+ {
+  "tag": "A",
+  "cls": "dropdown-toggle name-menu--item",
+  "text": "TÁI BẢO HIỂM"
+ },
+ {
+  "tag": "A",
+  "cls": "dropdown-toggle name-menu--item",
+  "text": "TIỆN ÍCH"
+ },
+ {
+  "tag": "A",
+  "cls": "dropdown-toggle name-menu--item",
+  "text": "HỆ THỐNG MÃ"
+ },
+ {
+  "tag": "A",
+  "cls": "dropdown-toggle name-menu--item",
+  "text": "BÁO CÁO"
+ },
+ {
+  "tag": "A",
+  "cls": "name-menu--item pj-more-toggle",
+  "text": "Thêm"
+ },
+ {
+  "tag": "A",
+  "cls": "dropdown-toggle",
+  "text": "TRINH DUY KIEN (TCT)"
+ }
+]
+searchy hrefs: [
+ "/ContractCar/Search",
+ "/ContractCar/SearchFeeApprove",
+ "/PropertyFireInsurance/Search",
+ "/ContractAssetsMixed/Search",
+ "/ContractProperty/Search?nv=31",
+ "/ContractProperty/Search?nv=33",
+ "/ContractProperty/Search?nv=34",
+ "/ContractProperty/Search_fee",
+ "/ContractProperty/Search_PropertyFee",
+ "/ContractPerson/Import_sk_sddien",
+ "/ContractPerson/SearchCombo?loaibh=6901",
+ "/ContractPerson/Search?loaibh=69",
+ "/ContractPerson/Search?loaibh=NG",
+ "/ContractPerson/Search?loaibh=62",
+ "/ContractPerson/Search?loaibh=6101",
+ "/ContractCargo/SearchTLO",
+ "/ContractCargo/Search",
+ "/ContractShip/Search",
+ "/InsuranceFee/SearchPaymentFts",
+ "/InsuranceFee/SearchInvoiceFTS",
+ "/ClaimGeneral/ObjectSearch",
+ "/ClaimGeneral/Search",
+ "/ClaimCargo/SearchFTS",
+ "/ClaimCargo/ObjectSearch",
+ "/ClaimCargo/Search",
+ "/ReInsurance/AllocationSearch",
+ "/ReInsurance/ProcessingSearch",
+ "/ReInsurance/TreatyOutwardSearch",
+ "/ContractPublic/BrowerEnd",
+ "/ContractPublic/BrowserSearch"
+]

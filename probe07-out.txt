@@ -1,0 +1,71 @@
+
+=== (a) back/forward ===
+Home URL: https://uat-capdon.pjico.com.vn/Home/Index
+Home title: Dashboard - PJICO: Nền tảng cấp đơn bảo hiểm
+Home .dropdown-toggle.name-menu--item count: 0
+  [shot] a1-home
+a[href*=ContractCar/Search] count: 0
+! Không tìm thấy link ContractCar/Search — goto trực tiếp
+After nav URL: https://uat-capdon.pjico.com.vn/ContractCar/Search
+Search page has visible input: false
+Search menu count: 7
+  [shot] a2-search
+After goBack URL: https://uat-capdon.pjico.com.vn/Home/Index
+After goBack menu count: 7
+After goBack body text length: 451
+  [shot] a3-back
+After goForward URL: https://uat-capdon.pjico.com.vn/ContractCar/Search
+After goForward menu count: 7
+After goForward body text length: 762
+  [shot] a4-forward
+
+=== (b) reload /ContractCar/Search ===
+reload ContractCar: menu OK
+reload ContractCar body len: 762 URL: https://uat-capdon.pjico.com.vn/ContractCar/Search
+  [shot] b1-reload-contractcar
+
+=== (b) reload /ClaimGeneral/Search ===
+reload /ClaimGeneral/Search: menu=true bodyBefore=828 bodyAfter=828 URL=https://uat-capdon.pjico.com.vn/ClaimGeneral/Search
+  [shot] b-reload-_ClaimGeneral_Search
+
+=== (b) reload /CategorySystem/Unit ===
+reload /CategorySystem/Unit: menu=true bodyBefore=432 bodyAfter=432 URL=https://uat-capdon.pjico.com.vn/CategorySystem/Unit
+  [shot] b-reload-_CategorySystem_Unit
+
+=== (c) query rác ===
+junk status: 200 URL: https://uat-capdon.pjico.com.vn/ContractCar/Search?xyz=1&test=%3Cb%3Eabc%3C%2Fb%3E
+HTML chứa chuỗi <b>abc</b> được render thô: false
+junk menu count: 7
+  [shot] c1-junk-query
+body contains "abc": false
+
+=== (d) 404 ===
+404 status: 200 URL: https://uat-capdon.pjico.com.vn/ErrorHandler/Index
+404 has stack trace (".cs", "Exception", "StackTrace"): [ false, false, false ]
+404 has link/button to home (href*="Home" or quay lại): false
+404 body text (first 400): Trang thông báo lỗi
+  [shot] d1-404
+back from 404 URL: https://uat-capdon.pjico.com.vn/ContractCar/Search?xyz=1&test=%3Cb%3Eabc%3C%2Fb%3E
+
+=== (e) /Home/Index?foo=bar ===
+foo=bar status: 200 URL: https://uat-capdon.pjico.com.vn/Home/Index?foo=bar
+foo=bar: menu OK
+foo=bar tab count: 3
+  [shot] e1-home-foo
+
+=== (f) hash #tab3 ===
+after hash URL: https://uat-capdon.pjico.com.vn/Home/Index?foo=bar#tab3
+page still loaded (menu count): 7
+goto with hash status: 200 URL: https://uat-capdon.pjico.com.vn/Home/Index#tab3
+goto hash menu count: 7
+tab3 state: col-md-12 col-xs-12
+  [shot] f1-hash
+
+=== (g) deep-link /CategorySystem/Unit ===
+deep-link status: 200 URL: https://uat-capdon.pjico.com.vn/CategorySystem/Unit
+deep-link: menu OK
+deep-link table rows: 10
+deep-link body len: 1634 login form? false
+
+=== console errors (unique, top 15) ===
+ CE: Refused to execute script from 'https://uat-capdon.pjico.com.vn/ErrorHandler/Index' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.
